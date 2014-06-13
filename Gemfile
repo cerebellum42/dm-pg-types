@@ -1,5 +1,7 @@
 require 'pathname'
 
+ruby '2.1.2'
+
 source 'http://rubygems.org'
 
 DM_VERSION     = '~> 1.2.0'
@@ -15,7 +17,7 @@ gem 'do_postgres',  DO_VERSION
 gem 'dm-do-adapter',      DM_VERSION
 gem 'dm-postgres-adapter', DM_VERSION
 
-gem 'rake',           '~> 0.9.2'
+gem 'rake',           '~> 10.3'
 
 group :development do
   gem 'rspec', '~> 1.3.2'
